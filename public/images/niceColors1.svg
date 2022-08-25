@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2022-08-16T18:27:04.849513</dc:date>
+    <dc:date>2022-08-16T19:07:40.283496</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -53,7 +53,7 @@ C 94.448353 41.309979 98.850081 46.104483 101.895743 51.744477
 C 104.941406 57.384471 106.536349 63.694672 106.536349 70.104476 
 L 123.096292 70.104476 
 z
-" style="fill: #2a1a16; opacity: 0.5; stroke: #2a1a16; stroke-linejoin: miter"/>
+" style="fill: #2a3119; opacity: 0.5; stroke: #2a3119; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 30.219689 110.446488 
@@ -68,7 +68,7 @@ C 76.384922 108.544979 68.750755 109.461764 61.331176 108.182501
 C 53.911598 106.903237 47.025232 103.482863 41.522727 98.343884 
 L 30.219689 110.446488 
 z
-" style="fill: #0d300d; opacity: 0.5; stroke: #0d300d; stroke-linejoin: miter"/>
+" style="fill: #20213e; opacity: 0.5; stroke: #20213e; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 106.536349 70.104476 
@@ -83,7 +83,7 @@ C 85.179028 56.033373 86.942706 58.531936 88.148439 61.307811
 C 89.354172 64.083686 89.976407 67.078047 89.976407 70.104476 
 L 106.536349 70.104476 
 z
-" style="fill: #07393e; opacity: 0.5; stroke: #07393e; stroke-linejoin: miter"/>
+" style="fill: #392f11; opacity: 0.5; stroke: #392f11; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 65.259607 31.554689 
@@ -98,7 +98,7 @@ C 48.532193 58.656455 51.126883 55.110697 54.554991 52.51108
 C 57.983099 49.911464 62.09741 48.369627 66.389697 48.076026 
 L 65.259607 31.554689 
 z
-" style="fill: #07393e; opacity: 0.5; stroke: #07393e; stroke-linejoin: miter"/>
+" style="fill: #401d20; opacity: 0.5; stroke: #401d20; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 41.522722 98.343879 
@@ -109,7 +109,7 @@ C 78.879395 90.059026 73.489818 92.184399 67.896484 92.184399
 C 62.30315 92.184399 56.913573 90.059026 52.825763 86.241278 
 L 41.522722 98.343879 
 z
-" style="fill: #07393e; opacity: 0.5; stroke: #07393e; stroke-linejoin: miter"/>
+" style="fill: #392f11; opacity: 0.5; stroke: #392f11; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 94.270246 98.343879 
@@ -120,7 +120,7 @@ C 89.976407 73.130905 89.354172 76.125267 88.148439 78.901142
 C 86.942706 81.677017 85.179028 84.175579 82.967205 86.241278 
 L 94.270246 98.343879 
 z
-" style="fill: #07393e; opacity: 0.5; stroke: #07393e; stroke-linejoin: miter"/>
+" style="fill: #401d20; opacity: 0.5; stroke: #401d20; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 124.200288 69.00048 
@@ -143,7 +143,7 @@ C 95.552349 40.205983 99.954077 45.000487 102.99974 50.640481
 C 106.045402 56.280475 107.640346 62.590676 107.640346 69.00048 
 L 124.200288 69.00048 
 z
-" style="fill: #8c564b; stroke: #ffffff; stroke-linejoin: miter"/>
+" style="fill: #8ca252; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 31.323685 109.342492 
@@ -158,7 +158,7 @@ C 77.488918 107.440983 69.854751 108.357768 62.435172 107.078505
 C 55.015594 105.799241 48.129228 102.378867 42.626723 97.239888 
 L 31.323685 109.342492 
 z
-" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+" style="fill: #6b6ecf; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 107.640346 69.00048 
@@ -173,7 +173,7 @@ C 86.283024 54.929377 88.046702 57.42794 89.252435 60.203815
 C 90.458168 62.97969 91.080403 65.974051 91.080403 69.00048 
 L 107.640346 69.00048 
 z
-" style="fill: #17becf; stroke: #ffffff; stroke-linejoin: miter"/>
+" style="fill: #bd9e39; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 66.363603 30.450693 
@@ -188,7 +188,7 @@ C 49.63619 57.552459 52.230879 54.0067 55.658987 51.407084
 C 59.087095 48.807468 63.201406 47.265631 67.493693 46.97203 
 L 66.363603 30.450693 
 z
-" style="fill: #17becf; stroke: #ffffff; stroke-linejoin: miter"/>
+" style="fill: #d6616b; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 42.626718 97.239883 
@@ -199,7 +199,7 @@ C 79.983391 88.95503 74.593814 91.080403 69.00048 91.080403
 C 63.407146 91.080403 58.017569 88.95503 53.929759 85.137282 
 L 42.626718 97.239883 
 z
-" style="fill: #17becf; stroke: #ffffff; stroke-linejoin: miter"/>
+" style="fill: #bd9e39; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 95.374242 97.239883 
@@ -210,7 +210,7 @@ C 91.080403 72.026909 90.458168 75.02127 89.252435 77.797145
 C 88.046702 80.57302 86.283024 83.071583 84.071201 85.137282 
 L 95.374242 97.239883 
 z
-" style="fill: #17becf; stroke: #ffffff; stroke-linejoin: miter"/>
+" style="fill: #d6616b; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- AT -->
