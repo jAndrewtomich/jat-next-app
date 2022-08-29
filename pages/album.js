@@ -1,205 +1,64 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+
 import Image from 'next/image'
-import Script from 'next/script'
-import MonkeyBeach from '../public/images/monkeyBeach.png'
-import MonkeyShot from '../public/images/monkeyShot.jpg'
 import Netflix from '../public/images/netflix.jpg'
+import Cifar10 from '../public/images/cifar10.webp'
 
 import Container from 'react-bootstrap/Container'
 
-import MyNavbar from './components/MyNavbar'
+
 
 export default function Home() {
     return (
         <>
-                <Head>
-                    <title>Andrew's Work</title>
-                    <meta name="description" content="All About Andrew's Work" />
-                    <link rel="icon" href="../public/favicon.ico" />
-                </Head>
-            <MyNavbar id="mainNav" />
-            <div className={styles.albumcontainer}>
-                <main className={styles.main}>
+            <Head>
+                <title>Andrew's Work</title>
+            </Head>
 
-                    <section className="py-5 text-center container">
-                        <div className="row py-lg-5" >
-                            <div className="col-lg-6 col-md-8 mx-auto">
-                                <h1 className="fw-light">Any Thoughts</h1>
-                                <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-                                <p>
-                                    <a href="#" className="btn btn-primary my-2">Demos</a>
-                                    <a href="#" className="btn btn-secondary my-2">Source Code</a>
-                                </p>
-                            </div>
+            <main className={ styles.albummain }>
+
+                <Container fluid>
+                    <div className="row align-items-center g-5 py-5 bg-dark text-white">
+                        <div className="col-10 col-sm-8 col-lg-6">
+                            <Image src={ Netflix } className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                         </div>
-                    </section>
-
-                    <div className="album py-5 bg-dark">
-                        <div className="container">
-
-                            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        {/* <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> */}
-                                        <Image src={ MonkeyBeach }></Image>
-                                        <div className="card-body">
-                                            <h5 className="card-title">History of Diplomatic Translators</h5>
-                                            {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        {/* <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> */}
-                                        <Image src={ MonkeyShot }></Image>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Cyberpunk Alleyways</h5>
-                                            {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        {/* <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> */}
-                                        <Image src={ Netflix }></Image>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Exploratory Data Analysis</h5>
-                                            {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        {/* <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> */}
-                                        <Image src={ Netflix }></Image>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Skating/Sliding Game Built Around Laptop Touchpad. FPAutorunner?...</h5>
-                                            {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* <div className="col">
-                                    <div className="card shadow-sm">
-                                        <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                                        <div className="card-body">
-                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                                        <div className="card-body">
-                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                                        <div className="card-body">
-                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                                        <div className="card-body">
-                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="card shadow-sm">
-                                        <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                                        <div className="card-body">
-                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <div className="btn-group">
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small className="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+                        <div className="col-lg-6">
+                            <h1 className="display-5 fw-bold lh-1 mb-3 text-white">Exploratory Data Analysis</h1>
+                            <p className="lead">Netflix was long a Titan in the Streaming Entertainment industry, and still holds a dominant market position.
+                                Which years saw the most popular shows added or created?  Can we infer antyihng about Netflix's motivations for the content they chose to add
+                                in a particular year?  Is there steady progression in one direction, or is variety a more prevalent preference?
+                                These are just some of the questions we explore in this in-depth analysis of the Netflix database.  Moreover, the Netflix
+                                database is joined with IMDb in order to obtain a representation for user rating.</p>
+                            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a type="link" href="/eda" className="btn btn-primary btn-lg px-4 me-md-2">Results</a>
+                                <a type="button" className="btn btn-outline-secondary btn-lg px-4">Source</a>
                             </div>
                         </div>
                     </div>
+                </Container>
+                <Container fluid>
+                    <div className="row align-items-center g-5 py-5 bg-dark text-white">
+                        <div className="col-lg-6">
+                            <h1 className="display-5 fw-bold lh-1 mb-3 text-white">ML for Image Classification</h1>
+                            <p className="lead">The ability for neural networks to accurately classify and identify images has come a long way, due in large part to the
+                            widespread adoption of the convolutional neural network for this task.</p>
+                            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <a type="link" href="/eda" className="btn btn-primary btn-lg px-4 me-md-2">Results</a>
+                                <a type="button" className="btn btn-outline-secondary btn-lg px-4">Source</a>
+                            </div>
+                        </div>
+                        <div className="col-10 col-sm-8 col-lg-6">
+                            <Image src={ Cifar10 } className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+                        </div>
+                    </div>
+                </Container>
+                <div className="b-example-divider"></div>
+            </main>
 
-                </main>
+            <footer className={styles.footer}>
+            </footer>
 
-                <footer className={styles.footer}>
-                </footer>
-            </div>
-
-            <Script src="./components/navShowHide.js" strategy='afterInteractive'/>
         </>
     )
 }
