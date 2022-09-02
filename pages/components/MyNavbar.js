@@ -52,7 +52,7 @@ import { NavLink } from 'react-bootstrap';
 
 function MyNavbar() {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark" style={{ fontSize: 20 }}>
+    <Navbar bg="dark" expand="lg" variant="dark" style={{ fontSize: 20 }} id="mainNav">
       <Container fluid style={{ height: 35 }}>
         <Navbar.Brand href="/">
             <Image src={ Logo } height="45" width="45" />
@@ -60,7 +60,7 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink href='#'>About</NavLink>
+            <NavLink href='/about'>About</NavLink>
             <NavDropdown title="Work" id="basic-nav-dropdown" menuVariant='dark'>
               {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -72,6 +72,7 @@ function MyNavbar() {
                 Other 
               </NavDropdown.Item>
             </NavDropdown>
+            <NavLink href='/contact'>Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
