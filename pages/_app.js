@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
     <SSRProvider>
       <Head>
           <meta name="description" content="All About Andrew's Work" />
-          <link rel="icon" href="/../public/favicon.ico" />
       </Head>
       <MyNavbar />
       <Component {...pageProps} />

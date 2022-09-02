@@ -6,12 +6,11 @@ import Logo from '../public/images/niceColors1.svg'
 
 export default function Home() {
   return (
-    <>
+      <div className={styles.landingcontainer}>
         <Head>
           <title>Andrew's Page</title>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
-
-      <div className={styles.landingcontainer}>
         <main className={ styles.main }>
           {/* <h1 className={ styles.indextitle }>ANDREW TOMICH</h1> */}
 
@@ -23,6 +22,5 @@ export default function Home() {
         <footer className={styles.footer}>
         </footer>
       </div>
-    </>
   )
 }

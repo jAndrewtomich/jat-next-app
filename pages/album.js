@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import Script from 'next/script'
+
 import Image from 'next/image'
 import Netflix from '../public/images/netflix.jpg'
 import Cifar10 from '../public/images/cifar10.webp'
@@ -9,11 +11,12 @@ import Container from 'react-bootstrap/Container'
 
 
 
-export default function Home() {
+export default function Album() {
     return (
         <>
             <Head>
                 <title>Andrew's Work</title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <main className={ styles.albummain }>
@@ -58,7 +61,7 @@ export default function Home() {
 
             <footer className={styles.footer}>
             </footer>
-
+            <Script src="components/navShowHide.js" strategy='afterInteractive'/>
         </>
     )
 }
